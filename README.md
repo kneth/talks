@@ -7,5 +7,5 @@
 To convert from markdown to PDF:
 
 ```shell
-pandoc -t beamer --highlight-style=tango temporal.md -o temporal.pdf
+pandoc -t beamer --syntax-highlighting=tango temporal.md -o temporal.pdf
 ```

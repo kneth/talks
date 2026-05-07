@@ -149,4 +149,4 @@ islamic = date.withCalendar("islamic-umalqura");
 
 - The `Temporal` family is ready for the party
 - If you are using `moment` and/or `datejs`, you should consider to migrate
-- Go through your code bases to identify your usage of `Data` - and replace it
+- Go through your code bases to identify your usage of `Date` - and replace it
