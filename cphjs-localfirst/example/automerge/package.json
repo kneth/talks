@@ -1,0 +1,18 @@
+{
+  "name": "automerge-todo-cli",
+  "version": "1.0.0",
+  "description": "A tiny collaborative todo list in the terminal using Automerge",
+  "type": "module",
+  "main": "todo.js",
+  "scripts": {
+    "start": "node todo.js",
+    "clean": "rm -rf .data doc-url.txt"
+  },
+  "private": true,
+  "dependencies": {
+    "@automerge/automerge-repo": "^2.5.6",
+    "@automerge/automerge-repo-network-websocket": "^2.5.6",
+    "@automerge/automerge-repo-storage-nodefs": "^2.5.6",
+    "ws": "^8.22.0"
+  }
+}
