@@ -1,0 +1,16 @@
+{
+  "name": "rxdb-todo-cli",
+  "version": "1.0.0",
+  "description": "A tiny collaborative todo list in the terminal using RxDB",
+  "type": "module",
+  "main": "todo.js",
+  "scripts": {
+    "start": "node todo.js",
+    "clean": "rm -rf .data"
+  },
+  "private": true,
+  "dependencies": {
+    "rxdb": "^17.6.0",
+    "rxjs": "^7.8.2"
+  }
+}
